@@ -15,7 +15,7 @@ npm install --save-dev webpack-dev-server
 
 Open package.json and update the scripts section:
 ```JSON
-scripts": {
+"scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack serve --open --config webpack.dev.js",
